@@ -7,6 +7,10 @@
        border: 1px solid red;
        padding: 6px;
        min-height: 12px;
+       
+       
+       
+       
      }
     </style>
   </head>
@@ -18,6 +22,13 @@
 
     <div>
       <label>Input:</label><input />
+    <script>    const input = document.querySelector('input');
+     
+    input.addEventListener('keydown', function(e) {
+      console.log(e.which);
+    });
+
+</script>
     </div>
 
     <br />
